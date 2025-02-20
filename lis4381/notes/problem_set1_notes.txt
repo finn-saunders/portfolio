@@ -1,0 +1,104 @@
+-	Web application is a type of client server application? Default extension for processing php is .php extension. Must be .php, if you don’t have a default page all files will be seen, 2 ways to comment in php(single line) also c style multiline comments, php variables are case sensitive, a hidden field is an html element does not appear on the form but can be sent ot the server on a hidden field
+
+do not put sensitive information in the hidden field, it does not appear
+know the difference between logic error and a run time error
+
+what is a 1:1 relationship
+what is a 1:M relationship
+what is a M:M relationship
+
+know what a header function is used
+to have the php file run itself again
+
+HTTP response and HTTP request
+response: when you get a response from the webpage that has passed form the server to the browser
+http request is a request from the clinet or browser
+
+goal of testing vs goal of debugging
+goal of testing is to find all errors in app
+goal of debugging is to fix all the errors in app
+
+order of precedence	pemdas?
+1. Math
+2. relates 
+3. logically
+
+
+know what the number format function does
+its number_format in php
+
+know what the local host or loop back address is 
+how we would run php files on local machines
+ampps is local server
+
+
+what is ip6 version of loopback address
+::1
+
+know difference between pk and fk in database
+
+what happens if you dont use a where clause in a delete statement
+you lost your job ya dummy
+
+know what the order by clause does in a select statement
+
+know what php interpreter is
+
+know what the mvc pattern is and what each one does
+with mvc you are not using less code it just makes each segment independent
+used to hand off different parts of a project to different individuals with strengths in that area
+better running is not a benefit
+
+know what the header function does
+
+know the parts of an http url
+protocol, path, file name
+
+know what a pdo object is  EX CRED
+know what the query function does when making one
+
+know what php interpreter does
+
+know the difference between the following php coding structers
+for, while, for each, do while, if else, switch	know the difference between these
+?
+when dealing with an array know what an index is
+a numeric position of an element in an array
+
+know what assignment operators are
+assign a value to a variable
+know that assignment operates are right associative
+whatever is on the right side of op will be assigned to the left side
+
+know what auto global or super global variables are
+post is one of them	they are associative arrays	key is alpha numeric instead of a index number
+
+know what logical operators are also known as Boolean operators
+
+know the difference between integer and a float
+
+know what value if we have an array 	know what value would get the first element
+php arrays are zero based	know how to get first element in php index array
+
+what does the modulist operater return
+it performs division behind the scenes and returns the remainder
+
+know what the increment and decrement
+++ and --
+
+know what logical and / or operators are and what they do
+
+know the order of precedence 
+and what it determines
+
+what character do we use to separate multiple arguments
+","
+
+each repetition of a looping statement is called an interation
+
+EXTRA CREDIT QUESTIONS BELOW NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNINJA
+what does the fetch function do for us in php
+
+last question
+
+know how to use a pdo object to connect to a database

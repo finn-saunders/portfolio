@@ -6,11 +6,18 @@
 
 
 
-1. TBD
+1. Establish server-side validation
+2. Compile servlet
+3. Chapter Questions (Chp. 11 & 12)
+4. Skillsets 10-12
 
 #### README.md file should include the following items:
 
-* TBD
+* Screenshot of Failed Validation
+* Screenshot of Passed Validation
+* Screenshot of Skillset 10
+* Screenshot of Skillset 11
+* Screenshot of Skillset 12
 
 
 
@@ -18,14 +25,19 @@
 
 #### Assignment Screenshots:
 
-* TBD
-<!--
-| JDK Installation Screenshot | Screenshot of Tomcat running. |
-|-------------------------|-------------------------|
-| ![JDK Installation Screenshot](img/jdk_install.png) | ![Screenshot of Tomcat running.](img/tomcat.png) |
+*Screenshot of Passed Validation*:
 
-*Screenshot of A1 Index*:
+![Valid Screenshot](img/valid.png)
 
-![A1 Index Screenshot](img/a1_index.png)
+*Screenshot of Passed Invalidation*:
 
--->
+![Valid Screenshot](img/invalid.png)
+
+
+| SS10 | SS11 | SS12 |
+|-------------------------|-------------------------|-------------------------|
+| ![SS10](img/ss10.png) | ![SS11](img/ss11.png) | ![SS12](img/ss12.png) |
+
+
+
+

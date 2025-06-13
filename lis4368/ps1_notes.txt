@@ -1,0 +1,105 @@
+PROBLEM SET 1 -- LIS4368
+
+know what the getParameter method is
+
+know the difference between a request and response objects -- client requests to server, server gives response to client
+
+know that servlets run on a server -- our server is called tomcat
+
+sessions - log into canvas session starts log out or close canvas session ends or based on time intervals
+
+know what a web applcation is - set of pages generated in response to a user
+
+web application is a type of client-server application
+
+what do html forms contain *or called controls/widgets* - check boxes, text boxes, radio buttons etc
+
+http request and response - request is sent from browser to server, response is sent from server to browser
+
+where are cookies stored - *client*
+
+el is expression language - makes it easy to access properties of java beans
+
+how can data be stored for web apps - text files, databases, or xml files
+
+html design has 2 types of elements, block and in-line - block will be displayed on its own line *such as a div tag*, 
+in-line elements are all stored on one line
+
+persistent cookies - exist after the session ends
+
+EL (expression language) advatages include -- elegant and compact syntax, it allows you to access nested properties easily, 
+handles null values well, provies more functionality (these are the answers for a question)
+
+advantages of using hidden files over url re-writing - it can contain spaces and special characters, has a longer limit to the 
+number of characters in a hidden field  (I believe these are also answers)
+
+MVC framwork- model, view, controller.  writing less code is not an advantage, its used to allow dev team to specialize.
+allows some people to work on presentation layer, some on database layer, or some working on logic *connection between form and java bean* for example
+how does the controller manage the flow? - through using servlets
+
+session objects can be in both servlets and java server pages
+
+know what the getParameterValues method is (in review sheet)
+
+presentation layer of a typical servlet or jsp web app - presentation layer, html pages and jsp pages
+jsp is like an html page with some java code
+
+if you want to create a persistent cookie you would set the cookies max age to a positive number
+
+when working in jsp and servlets you will probably be working with one of two ide's - java net beans or eclipse
+
+to minimize java code in jsp's you use servlets to handle processing requirements 
+
+know what ftp is -  you can use a client such as filezilla or putty
+
+typical uses for cookies - persistent cookie can help user skip login and registration form, customize pages for users
+you can focus banner ads and target users interests
+
+what does a doGet method of a servlet do - used for both request and response objects
+
+to set an attribute in the session object - it will be available until the user closes a broswer, a session times out,
+or you use a removeAttribute method
+
+you will know you are using EL because you begin with the character $ - same as php
+
+where are java classes of servlets located in tomcat - WEB-INF
+
+know how to do a jsp comment - different from html and java comment -- * <%--  --%> *
+
+MVC does not require less code, that is not a benefit of MVC
+
+http does not maintain state - you make a request to server, server sends response, then forgets everything else. rinse and repeat
+to maintain state you must do sessions or cookies. -- http on its own is a stateless protocol
+
+know the difference between a servlet and a jsp
+
+know what javaScript and JQuery are
+
+know natural join
+
+MVC pattern makes each layer as independent as possible
+perform all data validation on the client
+and it uses a pattern for every page on the application
+
+know select update delete insert
+
+a few join questions - natural join
+
+controller directs the flow of the view and model
+
+code first development - designs database with c sharp, came from java and its called jpa java persistent api
+in java you can create a db on the fly using java - the issue is unless you have a good db background you can screw up the application
+WHAT YOU NEED TO KNOW ABOUT THIS IS JPA JAVA persistent API 
+
+EL is compact syntax that allows you to get data from a java bean
+
+a java bean is a special class
+
+jstl - jsp standard tag library -- it provides tags for common tasks
+
+give an example of url rewriting - everything that happens after ? in the adress bar
+
+
+
+
+

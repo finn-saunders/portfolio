@@ -5,12 +5,12 @@
 ### Assignment #5 Requirements:
 
 
-
-1. TBD
-
 #### README.md file should include the following items:
 
-* TBD
+1. Course title, your name, assignment requirements, as per A1;
+2. Screenshot of running application's listing screen;
+3. Screenshot of running application's single RSS item screen;
+4. Screenshot of opened browser window;
 
 
 
@@ -18,14 +18,16 @@
 
 #### Assignment Screenshots:
 
-* TBD
-<!--
-| JDK Installation Screenshot | Screenshot of Tomcat running. |
+| Listing | Single entry | Read More |
+|-------------------------|-------------------------|-------------------------|
+| ![Listing](img/listing.png) | ![Single](img/single.png) | ![read](img/more.png) |
+
+##### Skill Sets
+| SS13.1 | SS13.2 |
 |-------------------------|-------------------------|
-| ![JDK Installation Screenshot](img/jdk_install.png) | ![Screenshot of Tomcat running.](img/tomcat.png) |
+| ![SS13](img/ss131.png) | ![SS14](img/ss132.png) |
 
-*Screenshot of A1 Index*:
-
-![A1 Index Screenshot](img/a1_index.png)
-
--->
+##### Skill Sets
+| SS14 | SS15 |
+|-------------------------|-------------------------|
+| ![SS14](img/ss14.png) | ![SS15](img/ss15.png) |

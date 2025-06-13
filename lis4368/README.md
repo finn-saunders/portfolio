@@ -22,9 +22,13 @@
     - Create a database and populate with tables
     - Complete Skill sets 4, 5 and 6
 4. [P1 README.md](p1/README.md "My P1 README.md file")
-    - TBD
+    - Use data validation for input
+    - Learn and implement regular expressions
+    - complete Skill sets
 5. [A4 README.md](a4/README.md "My A5 README.md file")
-    - TBD
+    - JSP Form Serverside validation
+    - Modifying servlets
+    - Skillsets 10-12
 6. [A5 README.md](a5/README.md "My A5 README.md file")
     - TBD
 7. [P2 README.md](p2/README.md "My P2 README.md file")

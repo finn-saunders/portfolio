@@ -1,0 +1,85 @@
+know what persistent data and what a SQLite database is
+
+know what continue method does in media player class
+
+know what key value pairs are
+you can recognize them as associative arrays
+these arrays can have alphanumeric values as the key and distinguish the key from the value by the colon
+
+if a numeric value is undefined in a key you would have a 0 as the key value
+
+if a string value is undefined what value is in the key "null"
+
+if the device stops and there is no persistent data it will be lost from RAM
+
+large amounts of persistent data should go into a database
+
+know how to find image through the source path of xml layout
+
+a reference to an array uses [], [0] is the first element of an array
+
+know how many miliseconds equals a second, 1000
+
+if we want to do storage in the manifest file that type of storage is known as external
+
+know what an adapter is - in a grid view for spinner when it binds the data to those controls you must use an adapter
+
+know what the lifecycle of an activity is, the whole life cycle
+
+know the purpose of a splash screen, to initialize resources for your app, shouldn't be boring or take up too much time
+
+know what a TimerTask is in the timer class
+
+know what a shared preferences object is
+
+Background property can be used to manipulate backgrounds
+
+know difference between mp3 and mp4 file format
+
+know the return type of a method or function that doesn't return anything - void
+
+in a grid view what data type is used to hold multiple values - array
+
+know what intents are in activities
+
+know what indexes are related to array
+
+know what a constructor is and it's purpose
+
+know what the final keyword is, used in context of constants
+
+know the difference of an if else structure and a switch structure
+^ know difference between the default option does
+
+know how to set the timer using miliseconds, timertask
+
+where do you specify a methods return type - in the header or declaration
+
+know what the res values folder is
+
+know what the res drawable folder is
+
+which browser is not supported in android - internet explorer
+
+know what a media player does in the android platform
+
+know in depth difference between if else and switch statements in java
+
+if you have variables that can be accessed through multiple methods those are class or global variables
+
+know what visibility property is
+
+know what the state of an activity is
+
+what goes at the end of a method, when a value is sent - return, can have this even if it is a void method
+
+how many values can a value returning method or function - only 1
+
+what type of file does shared preferences object save data to - xml file
+
+know difference between a local and global variable
+
+if a music player does not play a given file it may be that the file format is unsupported
+
+know the difference between a list view and a grid view
+

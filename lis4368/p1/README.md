@@ -1,4 +1,4 @@
-# lis4381 Mobile Web Application Development
+# lis4368 Advanced Web Application Development
 
 ## Finn Saunders
 
@@ -6,26 +6,26 @@
 
 
 
-1. TBD
-
-#### README.md file should include the following items:
-
-* TBD
-
+1. Suitably modify meta tags
+2. Change title, navigation links, and header tags appropriately
+3. Add form controls to match attributes of customer entity
+4. Use regexp to only allow appropriate characters for each control
 
 
 
 
 #### Assignment Screenshots:
 
-* TBD
-<!--
-| JDK Installation Screenshot | Screenshot of Tomcat running. |
+##### Index
+![Index](img/index.png)
+
+
+| Failed Validation | Passed Validation |
 |-------------------------|-------------------------|
-| ![JDK Installation Screenshot](img/jdk_install.png) | ![Screenshot of Tomcat running.](img/tomcat.png) |
+| ![Failed Validation](img/failed_valid.png) | ![Passed Validation](img/passed_valid.png) |
 
-*Screenshot of A1 Index*:
 
-![A1 Index Screenshot](img/a1_index.png)
+| SS7 | SS8 | SS9 |
+|-------------------------|-------------------------|-------------------------|
+| ![ss7](img/ss7.png) | ![ss8](img/ss8.png) |![ss9](img/ss9.png) |
 
--->

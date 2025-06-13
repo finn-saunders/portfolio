@@ -1,0 +1,110 @@
+PROBLEM SET 1 NOTES
+
+be familiar with java operators
+
+mneonoic device                      MRL- math relates logically
+
+order of precedence for operators (pemdas for math operators) (there are 6 relational operators - have order of precedance
+<, <=, >, >= all come before =, ==, ===) *===* only in javascript (== will value a string '5' and an int 5 the same, === does not called strict equality)
+
+math first, relational second, logical third
+
+logical operators (&&, ||, ! but they come in order of !, &&, then || in precedance)
+
+
+IN ANDSTUDIO R stands for resources folder
+
+know what a method is generically  -  should do just one thing not many things
+
+know what a void method is - doesnt return value
+
+know what gestures are in multi touch actions
+
+when you see the *new* keyword it means you are instantiating an object from a class
+
+what is final used for - to declare a constant variable that can't be changed after it is declared
+
+know what a boolean data type is -  only 2 values such as true or false / 0 or 1, zero is false and one is true
+
+know the ranges of the following data types - byte, float, int, long
+
+know what the strings.xlm file is used for
+
+ctrl + space does auto suggestion in AndStudio
+
+if you tap a touch sreen it is a *click event*
+
+know what a radio group is used for
+
+what is the preferred format for launcher icons - *png* 
+
+know what a launcher icon is
+
+double quotes "" go around a string - "string"
+
+know what the compare to method is
+
+all methods are *camelCase*
+
+Know what on click listener is - waits for user to tap or click button before taking action
+
+know what a toast notification is and how much space the notification takes up
+
+know what the following values represent - px, in, mm, pt, dp or dip, sp -- under notes in modules of canvas
+
+know what the android manifest is for - essentially for listing permissoins needed
+
+= is assignment == is equality -- if (x=5) just assigns 5 to x while if (x==5) evaltates
+
+know an event handler 
+
+know what the onCreate method is - entry point of an activity
+
+isChecked method return boolean value
+
+know what a soft keyboard is - *on screen keyboard*
+
+know the difference between a variable and a constant
+
+know the difference between compareTo method and equals method
+
+know how to make a toast notification - look for make text method for toast noti
+
+for a spinner/drop down know what getSelectedItem is used for
+
+if you see red curly lines in program it means you have errors
+
+know difference between if else statement and a switch statement
+
+know what the parseInt method will do
+
+ImageView control -- know what you can do with it
+
+know primitive data types like var char int doubel float etc - know which ones can hold numbers and which cant
+
+know what a spinner control is
+
+know what eventListeners do and what they wait for
+
+know what a class is 
+
+know difference margins and padding
+
+know what a name space is and how a package name is reference within a name space
+
+know what a widget is - any control like textview
+
+know what a hint is
+
+know how to create a new decimal format object variable
+
+know what the display text method does for us
+
+know what the setText method does
+
+know what the startActivity method does - creates intent to start another activity
+
+know what the import statement does
+
+
+

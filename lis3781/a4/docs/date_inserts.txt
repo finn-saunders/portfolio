@@ -1,0 +1,212 @@
+-- converts to binary
+SELECT HASHBYTES('SHA2_512', 'test');
+
+-- length 64 bytes
+SELECT LEN(HASHBYTES('SHA2_512', 'test'));
+
+-- Data for table person: 5 sales reps: 1 – 5, 10 customers: 6 – 15
+-- NOTE: do *not* include attribute name or value for auto increment attributes (i.e., pks)
+
+INSERT INTO dbo.person
+(per_ssn, per_fname, per_lname, per_gender, per_dob, per_street, per_city, per_state, per_zip, per_email, per_type, per_notes)
+VALUES
+(HASHBYTES('SHA2_512', 'test1'), 'Steve', 'Rogers', 'm', '1923-10-03', '437 Southern Drive', 'Rochester', 'NY', 324402222, 'srogers@comcast.net', 's', NULL),
+(HASHBYTES('SHA2_512', 'test2'), 'Bruce', 'Wayne', 'm', '1968-03-02', '1007 Mountain Drive', 'Gotham', 'NY', 983208440, 'bwayne@knology.net', 's', NULL),
+(HASHBYTES('SHA2_512', 'test3'), 'Peter', 'Parker', 'm', '1989-09-12', '20 Ingram Street', 'New York', 'NY', 102862341, 'pparker@msn.com', 's', NULL),
+(HASHBYTES('SHA2_512', 'test4'), 'Jane', 'Thompson', 'f', '1978-05-08', '13563 Ocean View Drive', 'Seattle', 'WA', 132084409, 'jthompson@gmail.com', 's', NULL),
+(HASHBYTES('SHA2_512', 'test5'), 'Tony', 'Stark', 'm', '1972-05-04', '332 Palm Avenue', 'Malibu', 'CA', 902638332, 'tstark@yahoo.com', 'c', NULL),
+(HASHBYTES('SHA2_512', 'test6'), 'Hank', 'Pym', 'm', '1980-08-28', '2355 Brown Street', 'Cleveland', 'OH', 822348890, 'hpym@aol.com', 'c', NULL),
+(HASHBYTES('SHA2_512', 'test7'), 'Bob', 'Best', 'm', '1990-03-12', '4902 Avendale Avenue', 'Scottsdale', 'AZ', 872638332, 'bbest@yahoo.com', 'c', NULL),
+(HASHBYTES('SHA2_512', 'test8'), 'Sandra', 'Dole', 'f', '1990-01-26', '87912 Lawrence Ave', 'Atlanta', 'GA', 672348890, 'sdole@gmail.com', 'c', NULL),
+(HASHBYTES('SHA2_512', 'test9'), 'Ben', 'Avery', 'm', '1988-02-24', '6432 Thunderbird Ln', 'Sioux Falls', 'SD', 526638332, 'bavery@hotmail.com', 'c', NULL),
+(HASHBYTES('SHA2_512', 'test10'), 'Arthur', 'Curry', 'm', '1975-12-21', '3304 Euclid Avenue', 'Miami', 'FL', 342219932, 'acurry@gmail.com', 'c', NULL),
+(HASHBYTES('SHA2_512', 'test11'), 'Diana', 'Price', 'f', '1983-03-12', '944 Green Street', 'Las Vegas', 'NV', 324084823, 'dprice@sympatico.com', 'c', NULL),
+(HASHBYTES('SHA2_512', 'test12'), 'Judy', 'Sleers', 'f', '2000-05-31', '98435 Valencia Dr', 'Gulf Shores', 'AL', 870219932, 'jsleers@gmx.com', 'c', NULL),
+(HASHBYTES('SHA2_512', 'test13'), 'Jay', 'Sleen', 'm', '1970-03-22', '56343 Rover Ct.', 'Billings', 'MT', 672048823, 'jsleen@sympatico.com', 'c', NULL),
+(HASHBYTES('SHA2_512', 'test15'), 'Bill', 'Neiderhelm', 'm', '1982-06-13', '43567 Netherland Blvd', 'South Bend', 'IN', 320219932, 'bneiderhim@comcast.net', 'c', NULL);
+
+SELECT * FROM dbo.person;
+
+-- Data for table slsrep
+INSERT INTO dbo.slsrep
+(per_id, srp_yr_sales_goal, srp_ytd_sales, srp_ytd_comm, srp_notes)
+VALUES
+(1, 100000, 60000, 1800, NULL),
+(2, 80000, 35000, 3500, NULL),
+(3, 150000, 84000, 9650, 'Great salesperson!'),
+(4, 125000, 87000, 15300, NULL),
+(5, 98000, 43000, 8750, NULL);
+
+SELECT * FROM dbo.slsrep;
+
+-- Data for table customer
+INSERT INTO dbo.customer
+(per_id, cus_balance, cus_total_sales, cus_notes)
+VALUES
+(6, 120, 14789, NULL),
+(7, 98.46, 234.92, NULL),
+(8, 0, 4578, 'Customer always pays on time.'),
+(9, 981.73, 1672.38, 'High balance.'),
+(10, 541.23, 782.57, NULL),
+(11, 251.02, 13782.90, 'Good customer.'),
+(12, 582.67, 963.12, 'Previously paid in full.'),
+(13, 121.67, 1057.45, 'Recent customer.'),
+(14, 765.43, 6789.42, 'Buys bulk quantities.'),
+(15, 304.39, 456.81, 'Has not purchased recently.');
+
+SELECT * FROM dbo.customer;
+
+-- Data for table order
+INSERT INTO dbo.[order]
+(cnt_id, ord_placed_date, ord_filled_date, ord_notes)
+VALUES
+(1, '2010-11-23', '2010-12-24', NULL),
+(2, '2005-03-19', '2005-07-28', NULL),
+(3, '2011-07-01', '2011-07-06', NULL),
+(4, '2009-12-24', '2010-01-05', NULL),
+(5, '2008-09-21', '2008-11-25', NULL),
+(6, '2009-04-17', '2009-04-30', NULL),
+(7, '2010-05-31', '2010-06-07', NULL),
+(8, '2007-09-02', '2007-09-16', NULL),
+(9, '2011-12-08', '2011-12-23', NULL),
+(10, '2012-02-29', '2012-05-02', NULL);
+
+SELECT * FROM dbo.[order];
+
+
+-- Data for table store
+INSERT INTO dbo.store
+(str_name, str_street, str_city, str_state, str_zip, str_phone, str_email, str_url, str_notes)
+VALUES
+('Walgreens', '14567 Walnut Ln', 'Aspen', 'IL', '475315690', '3127658127', 'info@walgreens.com', 'http://www.walgreens.com', NULL),
+('CVS', '572 Casper Rd', 'Chicago', 'IL', '505231159', '3128926534', 'help@cvs.com', 'http://www.cvs.com', 'Rumor of merger.'),
+('Lowes', '81309 Catapult Ave', 'Clover', 'WA', '802345671', '9017653421', 'sales@lowes.com', 'http://www.lowes.com', NULL),
+('Walmart', '14567 Walnut Ln', 'St. Louis', 'FL', '387563628', '8722718923', 'info@walmart.com', 'http://www.walmart.com', NULL),
+('Dollar General', '47583 Davison Rd', 'Detroit', 'MI', '482983456', '3137583492', 'ask@dollargeneral.com', 'http://www.dollargeneral.com', 'recently sold property');
+
+SELECT * FROM dbo.store;
+
+
+-- Data for table invoice
+INSERT INTO dbo.invoice
+(ord_id, str_id, inv_date, inv_total, inv_paid, inv_notes)
+VALUES
+(5, 1, '2001-05-03', 58.32, 0, NULL),
+(4, 1, '2006-11-11', 100.59, 0, NULL),
+(1, 1, '2010-09-16', 57.34, 0, NULL),
+(2, 3, '2011-01-10', 99.32, 1, NULL),
+(3, 2, '2008-06-24', 1109.67, 1, NULL),
+(6, 4, '2009-04-20', 239.83, 0, NULL),
+(7, 2, '2010-06-07', 537.29, 0, NULL),
+(8, 2, '2007-09-09', 644.21, 1, NULL),
+(9, 3, '2011-12-17', 934.12, 1, NULL),
+(10, 4, '2012-03-18', 27.45, 0, NULL);
+
+SELECT * FROM dbo.invoice;
+
+
+-- Data for table vendor
+INSERT INTO dbo.vendor
+(ven_name, ven_street, ven_city, ven_state, ven_zip, ven_phone, ven_email, ven_url, ven_notes)
+VALUES
+('Sysco', '531 Dolphin Run', 'Orlano', 'FL', '344761234', '7641238543', 'sales@sysco.com', 'http://www.sysco.com', NULL),
+('General Electric', '100 Happy Trails Dr.', 'Boston', 'MA', '123456987', '2134569641', 'support@ge.com', 'http://www.ge.com', 'Very good turnaround'),
+('Cisco', '300 Cisco Dr.', 'Stanford', 'OR', '872315492', '7823456723', 'cisco@cisco.com', 'http://www.cisco.com', NULL),
+('Goodyear', '100 Goodyear Dr.', 'Gary', 'IN', '485321956', '5784218427', 'sales@goodyear.com', 'http://www.goodyear.com', 'Competing well with Firestone.'),
+('Snap-On', '42185 Magenta Ave', 'Lake Falls', 'ND', '387513649', '9197345632', 'support@snapon.com', 'http://www.snap-on.com', 'Good quality tools!');
+
+SELECT * FROM dbo.vendor;
+
+
+-- Data for table product
+INSERT INTO dbo.product
+(ven_id, pro_name, pro_descript, pro_weight, pro_qoh, pro_cost, pro_price, pro_discount, pro_notes)
+VALUES
+(1, 'hammer', '', 2.5, 45, 4.99, 7.99, 30, 'Discounted only when purchased with screwdriver set.'),
+(2, 'screwdriver', '', 1.8, 120, 1.99, 3.49, NULL, NULL),
+(4, 'pail', '16 Gallon', 2.8, 48, 3.89, 7.99, 40, NULL),
+(5, 'cooking oil', 'Peanut oil', 15, 19, 19.99, 28.99, NULL, 'gallons'),
+(3, 'frying pan', '', 3.5, 178, 8.45, 13.99, 50, 'Currently 1/2 price sale.');
+
+SELECT * FROM dbo.product;
+
+
+-- Data for table order_line
+INSERT INTO dbo.order_line
+(ord_id, pro_id, oln_qty, oln_price, oln_notes)
+VALUES
+(1, 2, 10, 8.0, NULL),
+(2, 3, 7, 9.88, NULL),
+(3, 4, 3, 6.99, NULL),
+(5, 1, 2, 12.76, NULL),
+(4, 5, 13, 58.99, NULL);
+
+SELECT * FROM dbo.order_line;
+
+
+-- Data for table payment
+INSERT INTO dbo.payment
+(inv_id, pay_date, pay_amt, pay_notes)
+VALUES
+(5, '2008-07-01', 5.99, NULL),
+(4, '2010-09-28', 4.99, NULL),
+(1, '2008-07-23', 8.75, NULL),
+(3, '2010-10-31', 19.55, NULL),
+(2, '2011-03-29', 32.5, NULL),
+(6, '2010-10-03', 20.00, NULL),
+(8, '2009-08-10', 1000.00, NULL),
+(9, '2009-01-10', 103.68, NULL),
+(7, '2007-03-15', 25.09, NULL),
+(10, '2007-05-12', 40.00, NULL),
+(4, '2007-05-22', 9.33, NULL);
+
+SELECT * FROM dbo.payment;
+
+
+-- Data for table product_hist
+INSERT INTO dbo.product_hist
+(pro_id, pht_date, pht_cost, pht_price, pht_discount, pht_notes)
+VALUES
+(1, '2005-01-02 11:53:34', 4.99, 7.99, 30, 'Discounted only when purchased with screwdriver set.'),
+(2, '2005-02-03 11:15:59', 1.99, 3.49, NULL, NULL),
+(4, '2005-03-01 08:19:15', 3.89, 7.99, 40, NULL),
+(5, '2006-05-08 07:49:19', 19.99, 28.99, NULL, 'gallons'),
+(3, '2006-06-14 08:20:45', 8.45, 13.99, 50, 'Currently 1/2 price sale.');
+
+SELECT * FROM dbo.product_hist;
+
+
+-- Data for table srp_hist
+INSERT INTO dbo.srp_hist
+(per_id, sht_type, sht_modified, sht_modifier, sht_date, sht_yr_sales_goal, sht_yr_total_sales, sht_yr_total_comm, sht_notes)
+VALUES
+(1, 'u', GETDATE(), SYSTEM_USER, GETDATE(), 100000, 110000, 11000, NULL),
+(2, 'u', GETDATE(), SYSTEM_USER, GETDATE(), 150000, 175000, 17500, NULL),
+(3, 'u', GETDATE(), SYSTEM_USER, GETDATE(), 200000, 185000, 18500, NULL),
+(4, 'u', GETDATE(), ORIGINAL_LOGIN(), GETDATE(), 210000, 220000, 22000, NULL),
+(5, 'u', GETDATE(), ORIGINAL_LOGIN(), GETDATE(), 225000, 230000, 23000, NULL);
+
+SELECT * FROM dbo.srp_hist;
+
+-- get year only from srp_hist table
+SELECT YEAR(sht_date) FROM dbo.srp_hist;
+
+
+
+
+
+
+
+-- select * from [database_name].information_schema.tables;
+SELECT * FROM [fcs23a].information_schema.tables;
+GO
+
+-- metadata of database tables
+SELECT * FROM [fcs23a].information_schema.columns;
+GO
+
+-- summary information of objects
+SP_HELP 'object_name';
+
+-- summary information of object dbo.srp_hist
+SP_HELP 'dbo.srp_hist';

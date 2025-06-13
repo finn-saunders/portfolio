@@ -19,13 +19,10 @@
 #### Assignment Screenshots:
 
 * TBD
-<!--
-| JDK Installation Screenshot | Screenshot of Tomcat running. |
-|-------------------------|-------------------------|
-| ![JDK Installation Screenshot](img/jdk_install.png) | ![Screenshot of Tomcat running.](img/tomcat.png) |
+##### Skill Sets
+| SS13 | SS14 | SS15 |
+|-------------------------|-------------------------|-------------------------|
+| ![SS13](img/ss13.png) | ![SS14](img/ss14.png) | ![SS15](img/ss15.png) |
 
-*Screenshot of A1 Index*:
 
-![A1 Index Screenshot](img/a1_index.png)
 
--->

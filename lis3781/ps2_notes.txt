@@ -1,0 +1,118 @@
+know what a data mart is
+
+user access management - designed to limit access to a database
+
+BI, business intelligence - partitioning splits into subsets of rows or collumns, database is in different geographical locations
+
+Bitmap index is based on 0 and 1 bits, meaning true of false
+
+what is a user, role, and profile
+user is an object that allows someone to log into a db
+role is a name collection of db access privledges
+profile is a name collections of settings to control how much db resource is given to user
+
+3 types of warehouse design, star schema, snowflake schema and galaxy schema
+snowflake is a type of star schema that has dimension tables with their own dimension tables
+
+characteristic decision support data vs operational
+decision is high query activity
+operational is higher normalization
+
+user groups
+make DBA job much easier because you can manage group of users permissions
+
+client side extensions
+java, js, activex vbscript are allowed to access db
+
+metrics
+metrics are derived facts to differentiate from stored fax
+metrics are computed
+
+data cube in mdbs
+visualize it in 3 dimensions
+
+data integration
+means that all of the business entities are described in the same way throughout the enterprise
+
+data is captured in oltp system and placed in the warehouse in real or near real time
+
+decision support data high query characteristics 
+non normalized and pre aggregated
+
+when user clicks a hyperlink browser generates an httpget page request
+
+every xml doc has a root element
+
+decision support data vs operational data differ in 3 main ways
+timespan granularity and dimensionality
+
+in start snowflake or galaxy attributes are used to search filter and classify facts
+
+each dimension record is related to fact records
+
+what is ODBC architecture 
+open database architecture - allows all db connections through a driver manager
+
+in oracle enterprise manager a db object is any object created by an end user
+
+what does a web browser do to html code, it allows html to be interpreted on the fly
+
+data store contains business data extracted from operational dbs as well as from other external data sources
+
+an audit log shows errors in connection
+a file that automatically records a description of the db operations performed by all users
+
+When doing an insert in mongo db and it says ninserted:5 it means that 5 docs were successfully inserted into a collection
+colon can be looked at like a = sign, :5 is like =5
+
+Mongo db provides a function called find() 
+its used to retrieve documents from a mongo db database
+
+object id in mongo db is primary key for the collection
+
+you can have multiple documents be updated at the same time in mongo db
+one doc is modified by default but It can be changed by command
+
+object id in mongo db is indicated by _id
+
+defining or selecting from an object id would be _id:"idname"
+
+know what the update function is in mongo db with set key word with a $
+
+mongo db has similar commands to MySQL
+one of them is the count function, returns num of docs in a collection
+
+documents in mongo db is equivalent to records
+collections are tables
+
+know what the sort function does in mongo db
+
+when you open a collection the cursor will begin at the first record
+
+mongodb use command will create a new db if one does not already exist
+
+know what the limit function does in mongo db
+
+characters you need to get used to using
+[] - array, {} - document. documents are separated with commas until the last one
+
+you can assign a query to a js variable
+the variable can then run code
+
+know how to create a collection in mongo db
+use insert function in mongo db
+
+know what the remove function does in mongo db
+
+know what the find function does in mongo db
+
+$gt or $gte means greater than or greater than or equal to, same to lt for less then
+
+know what the update function does in mongo db using the set keyword
+
+know what the drop function does vs the remove function
+
+LAST 2 ARE SQL STATEMENTS ON THE EXAM
+MUST TYPE IN THE QUERY
+must type in keywords by looking at query result set
+

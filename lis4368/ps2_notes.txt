@@ -1,0 +1,76 @@
+know about controls (widgets)
+
+know difference between controls - spinner check box radio button
+
+know text field vs text area control
+
+know what a selection list is
+
+know that radio buttons are sometimes called option buttons
+
+know what a session object is
+
+know what a mail session is
+will contain these 3 things- protocol, host and port
+
+know what a digital secure certificate is
+
+know what a tag is(or element)
+
+if you want a secure connection you need an https connection and a server certificate to authenticate
+
+custom tag must know where the location of the tld(tag library descriptor) file
+
+connection pooling - connection pools improve database performance
+pool allows sharing of connection between users using app
+
+when we are doing a scripting variable
+string object, primitive data type, or wrapper class
+
+sql injection - used to execute sql statements against database
+can modify or delete data, compromising your database in some way
+
+know what a left outer join is vs a right outer join
+
+know that MySQL is a relational management system unlike mongo db
+
+when you establish a secure connection that will continue until a non secure url is trying to be accessed 
+
+SSL (SECURE SOCKET LAYER) - strength is determined by 3 things
+strength of certificate, strength supported by web server, strength of the browser itself
+
+questions about select statements, insert statements, update statements, and delete statements - be familiar with these
+
+if you have a descriptor with a constant in what case would it be typed
+ALL_UPPERCASE_EACH_WORD_SEPERATED_BY_AN_UNDERSCORE -- that was an example of the case which it is typed
+
+MRL - Math Relates logically
+with no parenthesis the order of precedence Math goes first then relational then logical operators.
+
+know the difference between a do-while loop and a while loop
+
+body is invoked in a do while and tested at the end
+
+a constant cannot change- final in java
+
+know the difference between an if else structure and a switch statement
+
+know what the BigDecimal class is used for
+used for any type of operation where you want to avoid rounding
+
+know what a shortcut assignment operator is
+
+know following data types - byte, int, long, float, double
+
+know what a stack trace looks like
+
+in a try catch block as soon as there is an error the remaining statements are not executed
+
+the class of all exceptions is called Exception
+
+know the different kinds of exceptions
+
+know what a for loop is
+
+know what throwing an exception means
+

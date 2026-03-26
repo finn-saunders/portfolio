@@ -4,55 +4,36 @@
 
 ### Overview:
 
-Company website for Southernmost AI Solutions, an AI automation consultancy based in Key West, FL. The site showcases services, portfolio projects, and provides multiple contact methods including a live AI voice agent.
+Company website for Southernmost AI Solutions, an AI automation consultancy based in Key West, FL. The site is designed to showcase services, highlight client work, and generate leads through multiple built-in contact methods.
 
-### Tech Stack:
+### Site Features:
 
-- Next.js 16 (App Router)
-- React 19
-- TypeScript
-- Tailwind CSS v4
-- Framer Motion
-- shadcn/ui + Radix UI
-- Vapi AI Web SDK
-- Cal.com Embed
-- Resend (email API)
-- n8n (workflow automation)
-
-### Key Features:
-
-1. Animated mesh gradient shader background using @paper-design/shaders-react
-2. Live AI voice agent integration (Vapi) with real-time state management
-3. Calendar booking via Cal.com embed
-4. Contact form with Next.js API route and Resend email delivery
-5. n8n workflow automation backend (availability checks, meeting booking, post-call summaries)
-6. Responsive design with glassmorphic navbar, fluid typography, and mobile drawer navigation
-7. Custom design system with CSS variables, glassmorphism cards, and Framer Motion animations
-8. Testimonial marquee carousel
-9. Portfolio case studies with Problem-Solution-Result format
+- Home page with animated background and service overview
+- Embedded AI voice agent that visitors can call directly from the site
+- Calendar booking embedded on the contact page
+- Contact form with email delivery
+- Portfolio section showcasing client projects
+- Testimonials carousel
+- Fully responsive mobile layout
 
 ### Screenshots:
 
-*Screenshot of Home Page with Shader Animation*:
+*Screenshot of Home Page*:
 
 ![Home Page](img/home.png)
 
-*Screenshot of AI Voice Agent (Vapi)*:
+*Screenshot of Voice Agent*:
 
-![Vapi Agent](img/vapi_agent.png)
+![Voice Agent](img/voice_agent.png)
 
 *Screenshot of Calendar Booking*:
 
 ![Calendar Booking](img/cal_booking.png)
 
-*Screenshot of Contact Form*:
+*Screenshot of Portfolio Section*:
 
-![Contact Form](img/contact_form.png)
+![Portfolio](img/portfolio.png)
 
-*Screenshot of n8n Workflow Automation*:
-
-![n8n Workflows](img/n8n_workflows.png)
-
-*Screenshot of Mobile Responsive View*:
+*Screenshot of Mobile View*:
 
 ![Mobile View](img/mobile.png)

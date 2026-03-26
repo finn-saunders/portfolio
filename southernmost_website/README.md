@@ -13,6 +13,7 @@ I built this website for my own business, Southernmost AI Solutions, an AI autom
 - Calendar booking system embedded on the contact page so clients can see availability and book meetings in real time
 - Contact form with automated email delivery
 - Portfolio section highlighting real client projects with results
+- About page with professional background and company story
 - Fully responsive mobile layout with adaptive navigation
 
 ### Screenshots:
@@ -36,6 +37,10 @@ I built this website for my own business, Southernmost AI Solutions, an AI autom
 *Screenshot of Portfolio Section*:
 
 ![Portfolio](img/portfolio.png)
+
+*Screenshot of About Page*:
+
+![About Page](img/about_me.png)
 
 *Screenshot of Mobile View*:
 

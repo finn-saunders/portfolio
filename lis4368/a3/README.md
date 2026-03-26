@@ -1,6 +1,4 @@
-# lis4368 Advanced Mobile Application Development
-
-## Finn Saunders
+# lis4368 Advanced Web Application Development
 
 ## Finn Saunders
 

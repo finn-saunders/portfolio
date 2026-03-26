@@ -30,7 +30,7 @@ A4 Requirements:
 
 ![Failed Val](img/fail_valid.png)
 
-*Screenshot Passed Validation:
+*Screenshot Passed Validation*:
 
 ![Passed Val](img/pass_valid.png)  
 

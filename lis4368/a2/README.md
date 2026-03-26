@@ -1,4 +1,4 @@
-# lis4368 Mobile Web Application Development
+# lis4368 Advanced Web Application Development
 
 ## Finn Saunders
 
@@ -35,7 +35,7 @@
 
 #### Skillset Screenshots:
 ##### (Click on the Main/Methods to view my code)
-|SS1 System Properties - [Main.java](../skillsets/ss1_systemProps/src/Main.java) , [Methods.java](../skillsets/ss1_systemProps/src/Methods.java) | SS2 Looping Structures - [Main.java](../skillsets/ss2_loopingStructures/src/Main.java) , [Methods.java](../skillsets/ss2_loopingStructures/src/Methods.java) | SS1 System Properties - [Main.java](../skillsets/ss3_numSwap/src/Main.java) , [Methods.java](../skillsets/ss3_numSwap/src/Methods.java) |
+|SS1 System Properties - [Main.java](../skillsets/ss1_systemProps/src/Main.java) , [Methods.java](../skillsets/ss1_systemProps/src/Methods.java) | SS2 Looping Structures - [Main.java](../skillsets/ss2_loopingStructures/src/Main.java) , [Methods.java](../skillsets/ss2_loopingStructures/src/Methods.java) | SS3 Number Swap - [Main.java](../skillsets/ss3_numSwap/src/Main.java) , [Methods.java](../skillsets/ss3_numSwap/src/Methods.java) |
 |-------------------------|-------------------------|-------------------------|
 | ![ss1](img/ss1.png) | ![ss2](img/ss2.png) | ![ss3](img/ss3.png) |
 

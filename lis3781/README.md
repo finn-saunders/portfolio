@@ -2,7 +2,7 @@
 
 ## Finn Saunders
 
-### lis3781 requirementss:
+### lis3781 requirements:
 
 *Course Work Links:*
 
@@ -15,7 +15,7 @@
 2. [A2 README.md](a2/README.md "My A2 README.md file")
     - Create company and customers tables with data
     - Create 2 users other then the admin, user1 and user2
-    - Grant specific privlieges for each user.
+    - Grant specific privileges for each user.
 3. [A3 README.md](a3/README.md "My A3 README.md file")
     - Practice Oracle Theory Questions (Unable to access oracle server through FSU)
     - Complete chapter questions

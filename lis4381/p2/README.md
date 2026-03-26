@@ -30,7 +30,7 @@ P2 Requirements:
 
 ![Main page](img/main_page.png)   
 
- *Screenshot Index:
+*Screenshot Index*:
 
 ![Invalid data](img/index.png)
 

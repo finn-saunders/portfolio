@@ -29,7 +29,7 @@ A5 Requirements:
 
 ![Main page](img/main_page.png)   
 
- *Screenshot Invalid Validation:
+*Screenshot Invalid Validation*:
 
 ![Invalid data](img/invalid_data.png)
 

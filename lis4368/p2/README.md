@@ -1,4 +1,4 @@
-# lis4381 Mobile Web Application Development
+# lis4368 Advanced Web Application Development
 
 ## Finn Saunders
 
